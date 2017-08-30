@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600">
+    <link rel="stylesheet" href="stylesheets/css/main.css">
+
+    <title>Simple RGB Color Game</title>
+  </head>
+  <body>
+
+    <div class="info delete">
+      <p>This game is truly simple. You just need to guess the right color for the RGB code shown in the header.</p>
+      <p>If you did not managed to guess the right color, the clicked area fade and its RGB code will be written out. However, if you guessed it right, each box will be painted in the desired color.</p>
+      <p>If you are not fimiliar with the color codes do not worry, click the EASY button and and you can now choose from fewer samples.</p>
+      <p>The RGB stand for Red, Green and Blue respectively. The numbers go from 0 to 255. 0 means that there are no color at all, 255 means that the color is 100% pure.</p>
+      <p>Have fun and good luck!</p>
+
+      <p class="close">Close</p>
+    </div>
+    <div class="toggle"></div>
+
+    <header>
+      <div class="wrap">
+        <p>rgb(<span> color code goes here </span>)</p>
+      </div>
+    </header>
+
+    <div class="levels">
+      <div class="easy btn">Easy</div>
+      <div class="restart btn">Restart</div>
+      <div class="hard btn active">Hard</div>
+      <div class="rules">?</div>
+    </div>
+
+    <div class="box-holder clearfix">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <!-- TODO: Make a help pop up windows with instructions -->
+
+    <script type="text/javascript" src="scripts/app.js"></script>
+  </body>
+</html>

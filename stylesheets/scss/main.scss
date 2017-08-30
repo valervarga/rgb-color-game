@@ -1,0 +1,15 @@
+@import 'helpers/variables';
+
+@import 'base/global';
+@import 'base/typography';
+
+@import 'modules/header';
+
+@import 'partials/boxes';
+@import 'partials/levels';
+@import 'partials/info';
+
+@import 'helpers/custom-classes';
+@import 'helpers/buttons';
+
+// TODO: Remake the boxes to horizontal lines, and when the user gives a wrong answer tha rgb code writes itselfe out and the background gets darker. Make a nice, modern and unique design.

@@ -1,0 +1,17 @@
+h1 {
+  font-size: 2rem;
+  font-weight: $light;
+}
+p,
+span {
+  font-size: 2em;
+  font-weight: $bold;
+}
+
+@media screen and (max-width: 767px) {
+  h1,
+  p,
+  span {
+    font-size: 1.4em;
+  }
+}

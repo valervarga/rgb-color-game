@@ -1,0 +1,37 @@
+.levels {
+  position: relative;
+  text-align: center;
+  padding: 5px 0;
+  border-top: 4px solid $dark-gray;
+  border-bottom: 4px solid $dark-gray;
+  .rules {
+    position: relative;
+    display: inline-block;
+    margin-left: 90px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid $dark-gray;
+    cursor: pointer;
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
+@media screen and (max-width: 1025px) and (min-width: 768px) {
+  .levels {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .levels {
+    .rules {
+      margin-left: 30px;
+    }
+  }
+}
